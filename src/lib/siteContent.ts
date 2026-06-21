@@ -19,7 +19,7 @@ export const siteContent = {
       "NABH Accredited"
     ],
     emergencyBadge: "24/7 Emergency Care",
-    heroImage: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1600&q=80"
+    heroImage: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1600&q=80"
   },
 
   specialties: {
@@ -190,24 +190,33 @@ export const siteContent = {
     accreditations: [
       "NABH Accredited Hospital",
       "ISO 9001:2015 Certified",
-      "Member of Indian Medical Association"
+      "Member of Healthcare Federation of India"
     ],
     quickLinks: [
-      { label: "About Us", href: "#why-us" },
-      { label: "Specialties", href: "#specialties" },
-      { label: "Facilities", href: "#facilities" },
-      { label: "Careers", href: "#careers" },
-      { label: "News & Events", href: "#news" }
-    ],
-    patientLinks: [
+      { label: "Our Specialties", href: "#specialties" },
       { label: "Book Appointment", href: "#contact" },
       { label: "Patient Resources", href: "#resources" },
-      { label: "Insurance & Billing", href: "#insurance" },
-      { label: "International Patients", href: "#international" },
-      { label: "Health Checkup Packages", href: "#packages" }
+      { label: "Health Checkup Packages", href: "#contact" },
+      { label: "International Patients", href: "#resources" }
     ],
-    copyright: "© 2024 Chennai Health Multi-Specialty Hospital. All rights reserved."
+    emergencyContact: {
+      title: "Emergency",
+      number: "+91 7550389284",
+      available: "24/7"
+    },
+    social: {
+      facebook: "#",
+      twitter: "#",
+      instagram: "#",
+      linkedin: "#"
+    },
+    copyright: "© 2024 Chennai Health Multi-Specialty Hospital. All rights reserved.",
+    policies: [
+      { label: "Privacy Policy", href: "#" },
+      { label: "Terms of Service", href: "#" },
+      { label: "Patient Rights", href: "#" }
+    ]
   }
-};
+} as const;
 
 export type SiteContent = typeof siteContent;
