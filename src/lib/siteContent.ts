@@ -190,33 +190,24 @@ export const siteContent = {
     accreditations: [
       "NABH Accredited Hospital",
       "ISO 9001:2015 Certified",
-      "Member of Healthcare Federation of India"
+      "Member of International Hospitals Federation"
     ],
     quickLinks: [
+      { label: "About Us", href: "#about" },
       { label: "Our Specialties", href: "#specialties" },
-      { label: "Book Appointment", href: "#contact" },
-      { label: "Patient Resources", href: "#resources" },
-      { label: "Health Checkup Packages", href: "#contact" },
-      { label: "International Patients", href: "#resources" }
+      { label: "Find a Doctor", href: "#doctors" },
+      { label: "Facilities", href: "#facilities" },
+      { label: "Careers", href: "#careers" },
+      { label: "Contact Us", href: "#contact" }
     ],
-    emergencyContact: {
-      title: "Emergency",
-      number: "+91 7550389284",
-      available: "24/7"
-    },
-    social: {
-      facebook: "#",
-      twitter: "#",
-      instagram: "#",
-      linkedin: "#"
-    },
-    copyright: "© 2024 Chennai Health Multi-Specialty Hospital. All rights reserved.",
-    policies: [
-      { label: "Privacy Policy", href: "#" },
-      { label: "Terms of Service", href: "#" },
-      { label: "Patient Rights", href: "#" }
-    ]
+    patientLinks: [
+      { label: "Book Appointment", href: "#appointment" },
+      { label: "Patient Portal", href: "#portal" },
+      { label: "Health Records", href: "#records" },
+      { label: "Insurance & Billing", href: "#billing" },
+      { label: "Visitor Information", href: "#visitors" },
+      { label: "Health Library", href: "#library" }
+    ],
+    copyright: "© 2024 Chennai Health Multi-Specialty Hospital. All rights reserved."
   }
-} as const;
-
-export type SiteContent = typeof siteContent;
+};
