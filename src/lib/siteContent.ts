@@ -187,34 +187,27 @@ export const siteContent = {
 
   footer: {
     tagline: "Healing with expertise, caring with heart",
+    accreditations: [
+      "NABH Accredited Hospital",
+      "ISO 9001:2015 Certified",
+      "Member of Indian Medical Association"
+    ],
     quickLinks: [
       { label: "About Us", href: "#about" },
-      { label: "Our Specialists", href: "#specialists" },
-      { label: "Departments", href: "#specialties" },
+      { label: "Our Specialties", href: "#specialties" },
+      { label: "Facilities", href: "#facilities" },
+      { label: "Doctors", href: "#doctors" },
       { label: "Careers", href: "#careers" },
-      { label: "News & Events", href: "#news" }
+      { label: "Contact", href: "#contact" }
     ],
     patientLinks: [
-      { label: "Book Appointment", href: "#contact" },
+      { label: "Book Appointment", href: "#appointment" },
       { label: "Patient Portal", href: "#portal" },
-      { label: "Medical Records", href: "#records" },
       { label: "Insurance", href: "#insurance" },
-      { label: "International Patients", href: "#international" }
+      { label: "Medical Records", href: "#records" },
+      { label: "Bill Payment", href: "#payment" },
+      { label: "Health Packages", href: "#packages" }
     ],
-    resourcesLinks: [
-      { label: "Health Library", href: "#library" },
-      { label: "FAQs", href: "#faq" },
-      { label: "Visiting Information", href: "#visiting" },
-      { label: "Support Groups", href: "#support" },
-      { label: "Feedback", href: "#feedback" }
-    ],
-    socialLinks: [
-      { platform: "Facebook", href: "#" },
-      { platform: "Twitter", href: "#" },
-      { platform: "Instagram", href: "#" },
-      { platform: "LinkedIn", href: "#" }
-    ],
-    copyright: "© 2024 Chennai Health. All rights reserved.",
-    certifications: ["NABH Accredited", "ISO 9001:2015", "NABL Certified Lab"]
+    copyright: "© 2024 Chennai Health Multi-Specialty Hospital. All rights reserved."
   }
 };
