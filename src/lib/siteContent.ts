@@ -157,13 +157,13 @@ export const siteContent = {
     subtitle: "We're here to help you on your path to better health",
     emergencyHotline: {
       title: "Emergency Hotline",
-      number: "+91 44 2345 6789",
+      number: "+91 7550389284",
       available: "24/7 Available"
     },
     generalEnquiries: {
       title: "General Enquiries",
-      phone: "+91 44 2345 6700",
-      email: "info@chennaihealth.in",
+      phone: "+91 7550389284",
+      email: "chennaihealth@hospital.in",
       hours: "Mon–Sat: 8 AM – 8 PM"
     },
     address: {
@@ -193,21 +193,21 @@ export const siteContent = {
       "Member of Indian Medical Association"
     ],
     quickLinks: [
-      { label: "About Us", href: "#about" },
-      { label: "Our Specialties", href: "#specialties" },
+      { label: "About Us", href: "#why-us" },
+      { label: "Specialties", href: "#specialties" },
       { label: "Facilities", href: "#facilities" },
-      { label: "Doctors", href: "#doctors" },
       { label: "Careers", href: "#careers" },
-      { label: "Contact", href: "#contact" }
+      { label: "News & Events", href: "#news" }
     ],
     patientLinks: [
-      { label: "Book Appointment", href: "#appointment" },
-      { label: "Patient Portal", href: "#portal" },
-      { label: "Insurance", href: "#insurance" },
-      { label: "Medical Records", href: "#records" },
-      { label: "Bill Payment", href: "#payment" },
-      { label: "Health Packages", href: "#packages" }
+      { label: "Book Appointment", href: "#contact" },
+      { label: "Patient Resources", href: "#resources" },
+      { label: "Insurance & Billing", href: "#insurance" },
+      { label: "International Patients", href: "#international" },
+      { label: "Health Checkup Packages", href: "#packages" }
     ],
     copyright: "© 2024 Chennai Health Multi-Specialty Hospital. All rights reserved."
   }
 };
+
+export type SiteContent = typeof siteContent;

@@ -67,7 +67,7 @@ export const Header: React.FC = () => {
           {/* Emergency CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+914423456789"
+              href="tel:+917550389284"
               className="flex items-center gap-2 text-emergency font-semibold hover:text-emergency/80 transition-colors"
             >
               <Phone className="w-5 h-5" />
@@ -107,7 +107,7 @@ export const Header: React.FC = () => {
                 </a>
               ))}
               <a
-                href="tel:+914423456789"
+                href="tel:+917550389284"
                 className="flex items-center gap-2 text-emergency font-semibold py-2"
               >
                 <Phone className="w-5 h-5" />
